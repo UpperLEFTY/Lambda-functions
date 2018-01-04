@@ -28,3 +28,12 @@ test('Lambdas.', function () {
   equal(sum(), 60,
     'result should be 60.');
 });
+
+
+// pure function
+const add10 = (a) => a + 10
+// impure function due to external non-constants
+let x = 10
+const addx = (a) => a + x
+// also impure due to side-effect
+const setx = (v) => x = v 
