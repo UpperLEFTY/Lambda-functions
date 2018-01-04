@@ -1,6 +1,6 @@
 var names = [
-  {name: "Josh Turner", id: 1},
-  {name: "Guilume Cruz", id: 2},
+  {name: "Joshua Turner", id: 1},
+  {name: "Maria Cruz", id: 2},
   {name: "Ricky Ricardo", id:3}
 ];
 
